@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- A tabela é criada usando a tag <table>, e cada linha é definida com a tag <tr>. As células da tabela são criadas usando as tags <td> para dados e <th> para cabeçalhos. O atributo "border" é usado para adicionar uma borda à tabela, e o atributo "align" é usado para centralizar a tabela na página. -->
+<!--na tabela a altura e largura são definidas por width e height, respectivamente, dada em porcentagem e pixeis-->
+<body>
+<!--width = dado em porcentagem height = dado em pixels-->
+<!--tabela para teste. cellpadding= espaçamento entre células e cellspacing= espaçamento entre linhas-->
+<!--mesclagem de linha = rowspan e mesclagem de coluna = colspan-->
+    <table border="5" align="center" width ="50%" height="100px" cellpadding="20%" cellspacing="10%" bgcolor="lightblue">
+        <tr bgcolor="lightpink">
+            <td>celula 01</td>
+            <td rowspan="2">celula 02</td>
+        </tr>
+        <tr>
+            <td bgcolor="lightgray" valign="top" colspan="2">celula 03</td>
+        </tr>
+        <tr>
+            <td bgcolor="lightgreen">celula 04</td>
+            <td bgcolor="lightyellow">celula 05</td>
+        </tr>
+
+    </table>
+<!--tabela 02-->
+      <table border="1" align="center">
+    <tr>
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>Sexo</th>
+    </tr>
+    <tr>
+        <td>Priscila</td>
+        <td>17</td>
+        <td>Feminino</td>
+    </tr>
+</body>
+</html>

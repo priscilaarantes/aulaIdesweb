@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulários</title>
+</head>
+<body>
+<!-- tipos de tag, atributos e valor de atributo-->
+    <form>
+ <!-- label é o rótulo wue serve para organizar os inputs, o input fica dentro da tag label, organizado assim: -->         
+            <label>
+                texto:
+                <input type = "text">
+            </label>
+            <label>
+                senha:
+                <input type = "password">
+            </label>
+
+            <center>
+                <textarea rows="20" cols = "30">area de texto</textarea>
+            </center>
+<!-- select é para fazer opções numa box-->            
+            <select>
+                <option> op.01 </option>
+                <option> op.02 </option>
+                <option> op.03 </option>
+            </select><br>
+<!-- agrupamento com o atributo name (para uma escolha só)-->            
+            <label>
+                <br>Escolha:
+                <br>sim<input type="radio" name="pinga" checked>
+                <br>não<input type="radio" name="pinga">
+            </label><br>
+<!-- tag radio sem agrupamento: não costuma ser usado -->
+            <label>
+                <br>Botão sem agrupamento:
+                <br><input type="radio">
+                <br><input type="radio">
+            </label><br>
+<!-- caixa de check, caixa de cor, caixa de data e botão (não joguei label ainda)-->
+            
+            checkbox<input type="checkbox"><br>
+            cor<input type="color"><br>        
+            data<input type="date"><br>   
+            <button>botão</button><br>
+<!-- botão de enviar alternativo, com imagem -->            
+            <br>gato que envia<input type="image" src="miau.jpg" width="100" height="70">>  
+            
+    </form>
+</body>
+</html>
